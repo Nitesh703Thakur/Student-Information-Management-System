@@ -1,0 +1,103 @@
+{
+  "departments": [
+    {
+      "id": 1,
+      "name": "Computer Science",
+      "code": "CS",
+      "description": "Software engineering, systems and computing studies.",
+      "student_count": 2
+    },
+    {
+      "id": 2,
+      "name": "Business Administration",
+      "code": "BBA",
+      "description": "Management, finance and entrepreneurship studies.",
+      "student_count": 1
+    },
+    {
+      "id": 3,
+      "name": "Information Technology",
+      "code": "IT",
+      "description": "Applied information technology and digital systems.",
+      "student_count": 1
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "student_id": "STU-2026-001",
+      "first_name": "Aarav",
+      "last_name": "Sharma",
+      "full_name": "Aarav Sharma",
+      "email": "aarav.sharma@example.com",
+      "phone": "+977 9800000001",
+      "date_of_birth": "2004-03-18",
+      "gender": "male",
+      "address": "Kathmandu, Nepal",
+      "department": 1,
+      "department_code": "CS",
+      "department_name": "Computer Science",
+      "semester": 6,
+      "enrollment_year": 2023,
+      "status": "active",
+      "gpa": 3.82
+    },
+    {
+      "id": 2,
+      "student_id": "STU-2026-002",
+      "first_name": "Saanvi",
+      "last_name": "Thapa",
+      "full_name": "Saanvi Thapa",
+      "email": "saanvi.thapa@example.com",
+      "phone": "+977 9800000002",
+      "date_of_birth": "2003-11-07",
+      "gender": "female",
+      "address": "Pokhara, Nepal",
+      "department": 2,
+      "department_code": "BBA",
+      "department_name": "Business Administration",
+      "semester": 8,
+      "enrollment_year": 2022,
+      "status": "graduated",
+      "gpa": 3.58
+    },
+    {
+      "id": 3,
+      "student_id": "STU-2026-003",
+      "first_name": "Nischal",
+      "last_name": "Gurung",
+      "full_name": "Nischal Gurung",
+      "email": "nischal.gurung@example.com",
+      "phone": "+977 9800000003",
+      "date_of_birth": "2005-01-26",
+      "gender": "male",
+      "address": "Lalitpur, Nepal",
+      "department": 3,
+      "department_code": "IT",
+      "department_name": "Information Technology",
+      "semester": 4,
+      "enrollment_year": 2024,
+      "status": "active",
+      "gpa": 3.41
+    },
+    {
+      "id": 4,
+      "student_id": "STU-2026-004",
+      "first_name": "Anisha",
+      "last_name": "Karki",
+      "full_name": "Anisha Karki",
+      "email": "anisha.karki@example.com",
+      "phone": "+977 9800000004",
+      "date_of_birth": "2004-08-12",
+      "gender": "female",
+      "address": "Bhaktapur, Nepal",
+      "department": 1,
+      "department_code": "CS",
+      "department_name": "Computer Science",
+      "semester": 5,
+      "enrollment_year": 2023,
+      "status": "inactive",
+      "gpa": 3.12
+    }
+  ]
+}
